@@ -48,3 +48,100 @@ export const userData = [
     'Active User': 5000,
   },
 ];
+
+export const userRows = [
+  {
+    id: 1,
+    username: 'Jon Snow',
+    avatar:
+      'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    email: 'hon@gmail.com',
+    status: 'active',
+    transaction: '$120.00',
+  },
+  {
+    id: 2,
+    username: 'Nom Cian',
+    avatar:
+      'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    email: 'hon@gmail.com',
+    status: 'active',
+    transaction: '$120.00',
+  },
+  {
+    id: 3,
+    username: 'Kelly Snow',
+    avatar:
+      'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    email: 'hon@gmail.com',
+    status: 'active',
+    transaction: '$120.00',
+  },
+  {
+    id: 4,
+    username: 'Gwen Stacy',
+    avatar:
+      'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    email: 'hon@gmail.com',
+    status: 'active',
+    transaction: '$120.00',
+  },
+  {
+    id: 5,
+    username: 'Megan Fox',
+    avatar:
+      'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    email: 'hon@gmail.com',
+    status: 'active',
+    transaction: '$120.00',
+  },
+  {
+    id: 6,
+    username: 'Megan Fox',
+    avatar:
+      'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    email: 'hon@gmail.com',
+    status: 'active',
+    transaction: '$120.00',
+  },
+
+  {
+    id: 7,
+    username: 'Megan Fox',
+    avatar:
+      'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    email: 'hon@gmail.com',
+    status: 'active',
+    transaction: '$120.00',
+  },
+
+  {
+    id: 8,
+    username: 'Megan Fox',
+    avatar:
+      'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    email: 'hon@gmail.com',
+    status: 'active',
+    transaction: '$120.00',
+  },
+
+  {
+    id: 9,
+    username: 'Megan Fox',
+    avatar:
+      'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    email: 'hon@gmail.com',
+    status: 'active',
+    transaction: '$120.00',
+  },
+
+  {
+    id: 10,
+    username: 'Megan Fox',
+    avatar:
+      'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    email: 'hon@gmail.com',
+    status: 'active',
+    transaction: '$120.00',
+  },
+];
