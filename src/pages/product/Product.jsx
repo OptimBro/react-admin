@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import './product.css'
 import Chart from '../../components/chart/Chart'
 import { productData } from '../../dummyData'
+import { Tooltip } from '@material-ui/core'
+import { Publish } from '@material-ui/icons'
 
 function Product() {
   return (
@@ -9,7 +11,9 @@ function Product() {
       <div className="productTitleContainer">
         <h1 className="productTitle">Product</h1>
         <Link to="/newProduct">
-          <button className="productAddButton">Create</button>
+          <Tooltip title="create new product">
+            <button className="productAddButton">Create</button>
+          </Tooltip>
         </Link>
       </div>
       <div className="productTop">
@@ -41,7 +45,34 @@ function Product() {
           </div>
         </div>
       </div>
-      <div className="productBottom"></div>
+      <div className="productBottom">
+        <form className="productForm">
+          <div className="productFormLeft">
+            <label>Product Name</label>
+            <input type="text" placeholder="Apple Airpods" />
+            <label>In Stock</label>
+            <select name="inStock" id="inStock">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+            <label>Active</label>
+            <select name="active" id="active">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+          <div className="productFormRight">
+            <div className="productUpload">
+              <img src="https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" className="productUploadImg" />
+              <label htmlFor="productImgUploadInput">
+                <Publish className="productImgUploadIcon" />
+              </label>
+              <input type="file" id="productImgUploadInput" style={{ display: 'none' }} />
+            </div>
+            <button className="productButton">Update</button>
+          </div>
+        </form>
+      </div>
     </div>
   )
 }
